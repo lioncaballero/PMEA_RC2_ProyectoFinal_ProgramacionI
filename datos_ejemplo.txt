@@ -1,0 +1,49 @@
+# Sistema de Monitoreo de Calidad del Aire - Quito, Ecuador
+# Archivo de datos de ejemplo para pruebas
+# Formato: YYYY-MM-DD,HH:MM,Zona,PM2.5,PM10,NO2,O3,SO2,CO
+# Unidades: PM2.5 y PM10 en ug/m3 | NO2 en ug/m3 | O3 en ug/m3 | SO2 en ug/m3 | CO en mg/m3
+#
+# CASO A (lineas 1-6): Valores dentro de limites - Centro Historico y La Floresta
+# CASO B (lineas 7-18): Valores con alertas moderadas - La Mariscal y La Carolina
+# CASO C (lineas 19-30): Valores criticos - Cumbaya (episodio de contaminacion)
+# ------------------------------------------------------------------------------
+
+# -- CASO A: niveles normales (Centro Historico) --
+2026-05-20,08:00,Centro Historico,8.2,22.0,12.0,45.0,8.0,1.2
+2026-05-21,08:00,Centro Historico,7.5,20.5,11.5,42.0,7.5,1.1
+2026-05-22,08:00,Centro Historico,9.0,23.0,13.0,48.0,9.0,1.3
+2026-05-23,08:00,Centro Historico,6.8,19.0,10.5,40.0,7.0,1.0
+2026-05-24,08:00,Centro Historico,8.5,21.5,12.5,44.0,8.2,1.2
+2026-05-25,08:00,Centro Historico,7.9,20.0,11.8,43.0,7.8,1.1
+
+# -- CASO A: niveles normales (La Floresta) --
+2026-05-20,07:30,La Floresta,5.5,15.0,9.0,38.0,6.0,0.8
+2026-05-21,07:30,La Floresta,6.0,16.5,9.5,40.0,6.5,0.9
+2026-05-22,07:30,La Floresta,5.8,15.8,9.2,39.0,6.2,0.8
+2026-05-23,07:30,La Floresta,6.2,17.0,10.0,41.0,6.8,0.9
+2026-05-24,07:30,La Floresta,5.9,16.0,9.3,39.5,6.3,0.85
+2026-05-25,07:30,La Floresta,6.1,16.3,9.8,40.5,6.6,0.9
+
+# -- CASO B: alertas moderadas (La Mariscal) --
+2026-05-20,09:00,La Mariscal,14.0,38.0,20.0,72.0,18.0,2.2
+2026-05-21,09:00,La Mariscal,15.5,40.0,21.5,78.0,20.0,2.5
+2026-05-22,09:00,La Mariscal,16.8,43.0,23.0,82.0,22.0,2.8
+2026-05-23,09:00,La Mariscal,17.5,44.5,24.0,88.0,24.0,3.0
+2026-05-24,09:00,La Mariscal,18.0,44.0,24.5,90.0,25.0,3.1
+2026-05-25,09:00,La Mariscal,17.2,43.5,23.5,85.0,23.5,2.9
+
+# -- CASO B: alertas moderadas (La Carolina) --
+2026-05-20,10:00,La Carolina,13.0,35.0,19.0,68.0,16.0,2.0
+2026-05-21,10:00,La Carolina,14.5,38.0,21.0,75.0,18.5,2.3
+2026-05-22,10:00,La Carolina,15.0,39.0,22.0,80.0,20.0,2.6
+2026-05-23,10:00,La Carolina,15.8,41.0,22.5,82.0,21.0,2.8
+2026-05-24,10:00,La Carolina,16.2,42.5,23.0,85.0,22.0,2.9
+2026-05-25,10:00,La Carolina,16.5,43.0,23.5,86.0,22.5,2.95
+
+# -- CASO C: niveles criticos (Cumbaya - episodio industrial hipotetico) --
+2026-05-20,11:00,Cumbaya,28.0,65.0,32.0,105.0,45.0,4.5
+2026-05-21,11:00,Cumbaya,32.0,72.0,36.0,110.0,50.0,5.0
+2026-05-22,11:00,Cumbaya,38.0,80.0,40.0,115.0,55.0,5.5
+2026-05-23,11:00,Cumbaya,42.0,88.0,44.0,120.0,58.0,5.8
+2026-05-24,11:00,Cumbaya,45.0,92.0,46.0,125.0,62.0,6.0
+2026-05-25,11:00,Cumbaya,48.0,95.0,48.0,128.0,65.0,6.2
