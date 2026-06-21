@@ -1,5 +1,5 @@
 # Sistema Integral de Gestión y Predicción de Contaminación del Aire en Zonas Urbanas
-## Quito, Ecuador — Proyecto Académico (Lion) · S8 Ejercicio de Programación
+## Quito, Ecuador — Proyecto Académico
 
 ---
 
